@@ -1,9 +1,10 @@
 name: Android APK
 
-on:
+'on':
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches:
+      - main
+  workflow_dispatch: {}
 
 permissions:
   contents: read
