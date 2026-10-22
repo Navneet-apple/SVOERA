@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "SVOERA",
+    "slug": "svoera",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "svoera",
+    "newArchEnabled": true,
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "android": { "package": "app.svoera.mobile", "edgeToEdgeEnabled": true },
+    "ios": { "bundleIdentifier": "app.svoera.mobile", "supportsTablet": true }
+  }
+}
