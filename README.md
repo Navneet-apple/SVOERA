@@ -22,7 +22,7 @@ Every push to `main` builds an installable Android debug APK with GitHub Actions
 To build locally, install the Android SDK and Java 17, then run:
 
 ```sh
-npm ci
+npm ci --legacy-peer-deps
 npx expo prebuild --platform android --no-install
 cd android
 ./gradlew assembleDebug
